@@ -61,21 +61,18 @@ const questions = () => {
         name: 'Licenses',
         message: 'What type of License will you be using',
         choices: ['MIT','GNU AGPLv3', 'Apache License 2.0','The Unlicense']
-    }
-      
+    },
+    
 
     
 
-])
+]).then((data) => {
+    console.log(data);
+    var README = generateMarkdown(data);
+    console.log(README);
+    fs.writeFile("README.md", README, (err) => {
+      if (err) throw err;
+    });
+  });
 }
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {
-    return questions()
-}
-
-// Function call to initialize app
-init();
+questions()
