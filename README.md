@@ -26,7 +26,7 @@
   To see the rest of my work checkout out my github at github.com/LannyLopez
 
   ## Screenshots
-  ![Image-Example](/utils/images/screenshot.png)
+  ![Image-Example](develop/utils/images/screenshot.png)
 
 
 
