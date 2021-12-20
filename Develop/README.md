@@ -26,8 +26,8 @@
   To see the rest of my work checkout out my github at github.com/LannyLopez
 
   ## Screenshots
-  ![Image-Example](/utils/images/screenshot.png)
+  ![Image-Example](./utils/images/screenshot.png)
 
   ## Video Example
-  ![Video-Example](/utils/video/screenCap.mov)
+  ![Video-Example](https://youtu.be/nuxW1ajPQbQ)
 

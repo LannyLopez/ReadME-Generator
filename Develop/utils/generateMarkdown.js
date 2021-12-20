@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   To see the rest of my work checkout out my github at ${data.Github}
 
   ## Screenshots
-  ![Image-Example](/utils/images/screenshot.png)
+  ![Image-Example](./utils/images/screenshot.png)
 
   ## Video Example
   ![Video-Example](/utils/video/screenCap.mov)
