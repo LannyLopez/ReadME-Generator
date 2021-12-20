@@ -27,7 +27,7 @@
 
   ## Screenshots
   ![Image-Example](../develop/utils/images/screenshot.png)
-
+  (Also check develop read me for better preview)
 
 
 
